@@ -1,0 +1,185 @@
+body {
+  font-family: 'Arvo';
+  background: #667db6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+  color: white;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Arvo';
+  /*font-weight: 800 !important;*/
+  text-shadow: -1.5px 0 #a0afba, 0 1.5px #a0afba, 1.5px 0 #a0afba, 0 -1.5px #a0afba;
+  margin-top: 1px;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.column{
+	float: left;
+	width: 25%;
+	text-align: center;
+	color: white;
+}
+.column img{
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 250px;
+	height: 200px;
+}
+
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  /*padding-bottom: calc(7rem + 72px);*/
+  background: #667db6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+  font-size: 4rem;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 30px;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(10rem + 55px);
+    padding-top: 25px;
+    /*padding-bottom: calc(10rem + 55px);*/
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 30px;
+  }
+}
+
+body{
+	font-family:'Arvo';
+}
+
+header.masthead{
+	position:relative;
+	overflow:hidden;
+	padding-top:calc(7rem + 72px);
+	padding-top: 25px;
+	/*padding-bottom:calc(7rem + 72px);*/
+	background: #667db6; /* fallback for old browsers */
+  	background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* Chrome 10-25, Safari 5.1-6 */
+  	background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:cover
+}
+header.masthead .masthead-content{
+	z-index:1;
+	position:relative
+}
+header.masthead .masthead-content .masthead-heading{
+	font-size:4rem
+}
+header.masthead .masthead-content .masthead-subheading{
+	font-size: 30px;
+}
+
+@media (min-width:992px){
+	header.masthead{
+		padding-top:calc(10rem + 55px);
+		padding-top: 25px;
+		/*padding-bottom:calc(10rem + 55px)*/
+	}
+	header.masthead .masthead-content .masthead-heading{
+		font-size:6rem
+	}
+	header.masthead .masthead-content .masthead-subheading{
+		font-size: 30px;
+	}
+}
+.bg-primary{
+	background-color:#ee0979!important
+}
+.btn-primary{
+	background-color:#ee0979;
+	border-color:#ee0979
+}
+.btn-primary:active,.btn-primary:focus,.btn-primary:hover{
+	background-color:#bd0760!important;
+	border-color:#bd0760!important
+}
+.btn-primary:focus{
+	box-shadow:0 0 0 .2rem rgba(238,9,121,.5)
+}
+.btn-secondary{
+	background-color:#ff6a00;
+	border-color:#ff6a00
+}
+.btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover{
+	background-color:#c50!important;
+	border-color:#c50!important
+}
+.btn-secondary:focus{
+	box-shadow:0 0 0 .2rem rgba(255,106,0,.5)
+}
+div .game{
+	padding-top: 50px;
+}
+.modal-content{
+	background: #ec6f66; /* fallback for old browsers */
+  	background: -webkit-linear-gradient(to right, #ec6f66, #f3a183); /* Chrome 10-25, Safari 5.1-6 */
+  	background: linear-gradient(to right, #ec6f66, #f3a183);
+  	margin-bottom: 50px;
+}
+.flip-card{
+	background-color: transparent;
+	width: 600px;
+	display: block;
+	overflow: auto;
+	border: 1px solid #f1f1f1;
+	perspective: 2000px;
+	vertical-align: middle;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.modal img{
+	width: 75%;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#flipcard2{
+	display: none;
+	width: 600px;
+	overflow: auto;
+}
